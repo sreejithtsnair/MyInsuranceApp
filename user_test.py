@@ -24,3 +24,5 @@ class UserTest(unittest.TestCase):
         self.assertTrue(theaddress.index ('Kerala') >=0)
         self.assertTrue(theaddress.index ('It is in India') >=0)
         print(theaddress)
+        self.assertTrue(theaddress.index ('It is in India') >=0)
+        print(theaddress)
